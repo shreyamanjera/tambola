@@ -23,6 +23,26 @@ body { background: linear-gradient(135deg, #32135f 0%, #5d2aa8 48%, #1b75bc 100%
 .why-features span { min-width: 0; }
 
 @media (max-width: 650px) {
+  .page { width: 100%; }
+  header { height: 68px; padding: 0 16px; }
+  .header-actions { gap: 6px; }
+  .profile-button { padding: 7px 9px; font-size: 10px; }
+  .cart-button { padding: 7px 9px; }
+
+  .hero.hero-landscape { padding: 18px 16px 28px; }
+  .hero.hero-landscape > img { width: 100%; height: 360px; aspect-ratio: auto; object-position: center; }
+  .hero-overlay { inset: 18px 16px 28px; padding: 22px 18px; }
+  .hero-overlay div { width: 100%; }
+  .hero-brand { font-size: 16px; margin-bottom: 12px; }
+  .hero-overlay h1 { max-width: 330px; margin: 0 auto; font-size: clamp(25px, 8vw, 34px); line-height: 1.02; letter-spacing: -1.2px; }
+  .hero.hero-landscape .hero-overlay p { max-width: 300px; margin: 14px auto 0; font-size: 11px; line-height: 1.45; white-space: normal; }
+
+  .perfect-for { padding: 28px 16px 44px; }
+  .perfect-for h2 { font-size: 38px; margin-bottom: 18px; }
+  .event-list { grid-template-columns: 1fr 1fr; gap: 4px 10px; }
+  .event-list span { min-height: 58px; padding: 8px 4px; font-size: 12px; line-height: 1.25; }
+  .event-list i { flex: 0 0 auto; font-size: 18px; }
+
   .why-boards { padding: 0 24px 48px; }
   .why-content { grid-template-columns: 1fr; gap: 20px; }
   .why-content img { max-width: 100%; aspect-ratio: 4 / 3; }
